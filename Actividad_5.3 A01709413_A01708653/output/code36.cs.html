@@ -1,0 +1,30 @@
+<style>.Variable { color: blue; }.Real { color: green; }.Comentario { color: gray; }.Especial { color: red; }.Operador { color: purple; }.Keyword { color: cyan; }.body { backgroud-color: black;   }.System { color: orange; }.Separators { color: red; }.String { color: pink; }</style><pre><span class="Comentario">// C# Program to Check Whether the Given Number is a Prime number if so then Display its Largest Factor
+</span></pre><pre><span class="Keyword">using</span><span class=""> </span><span class="System">System</span><span class="Separators">;</span></pre><pre><span class="Keyword">namespace</span><span class=""> </span><span class="Variable">example</span></pre><pre><span class="Separators">{</span><span class="">
+    </span><span class="Keyword">class</span><span class=""> </span><span class="Variable">prime</span><span class="">
+    </span><span class="Separators">{</span><span class="">
+        </span><span class="Keyword">public</span><span class=""> </span><span class="Keyword">static</span><span class=""> </span><span class="Keyword">void</span><span class=""> </span><span class="Variable">Main</span><span class="Separators">(</span><span class="Separators">)</span><span class="">
+        </span><span class="Separators">{</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">Write</span><span class="Separators">(</span><span class="String">"Enter a Number : "</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">int</span><span class=""> </span><span class="Variable">num</span><span class="Separators">;</span><span class="">
+            </span><span class="Variable">num</span><span class=""> </span><span class="Operador">=</span><span class=""> </span><span class="Variable">Convert</span><span class="Separators">.</span><span class="Variable">ToInt32</span><span class="Separators">(</span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">ReadLine</span><span class="Separators">(</span><span class="Separators">)</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">int</span><span class=""> </span><span class="Variable">k</span><span class="Separators">;</span><span class="">
+            </span><span class="Variable">k</span><span class=""> </span><span class="Operador">=</span><span class=""> </span><span class="Real">0</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">for</span><span class=""> </span><span class="Separators">(</span><span class="Keyword">int</span><span class=""> </span><span class="Variable">i</span><span class=""> </span><span class="Operador">=</span><span class=""> </span><span class="Real">1</span><span class="Separators">;</span><span class=""> </span><span class="Variable">i</span><span class=""> </span><span class="Operador"><</span><span class="Operador">=</span><span class=""> </span><span class="Variable">num</span><span class="Separators">;</span><span class=""> </span><span class="Variable">i</span><span class="Operador">+</span><span class="Operador">+</span><span class="Separators">)</span><span class="">
+            </span><span class="Separators">{</span><span class="">
+                </span><span class="Keyword">if</span><span class=""> </span><span class="Separators">(</span><span class="Variable">num</span><span class=""> </span><span class="Operador">%</span><span class=""> </span><span class="Variable">i</span><span class=""> </span><span class="Operador">=</span><span class="Operador">=</span><span class=""> </span><span class="Real">0</span><span class="Separators">)</span><span class="">
+                </span><span class="Separators">{</span><span class="">
+                    </span><span class="Variable">k</span><span class="Operador">+</span><span class="Operador">+</span><span class="Separators">;</span><span class="">
+                </span><span class="Separators">}</span><span class="">
+            </span><span class="Separators">}</span><span class="">
+            </span><span class="Keyword">if</span><span class=""> </span><span class="Separators">(</span><span class="Variable">k</span><span class=""> </span><span class="Operador">=</span><span class="Operador">=</span><span class=""> </span><span class="Real">2</span><span class="Separators">)</span><span class="">
+            </span><span class="Separators">{</span><span class="">
+                </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">"Entered Number is a Prime Number and "</span><span class=""> </span><span class="Operador">+</span><span class=""> 
+                                  </span><span class="String">"the Largest Factor is {0}"</span><span class="Separators">,</span><span class="Variable">num</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Separators">}</span><span class="">
+            </span><span class="Keyword">else</span><span class="">
+            </span><span class="Separators">{</span><span class="">
+                </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">"Not a Prime Number"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Separators">}</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">ReadLine</span><span class="Separators">(</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+        </span><span class="Separators">}</span><span class="">
+    </span><span class="Separators">}</span></pre><pre><span class="Separators">}</span></pre>

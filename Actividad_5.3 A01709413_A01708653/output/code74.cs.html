@@ -1,0 +1,30 @@
+<style>.Variable { color: blue; }.Real { color: green; }.Comentario { color: gray; }.Especial { color: red; }.Operador { color: purple; }.Keyword { color: cyan; }.body { backgroud-color: black;   }.System { color: orange; }.Separators { color: red; }.String { color: pink; }</style><pre><span class="Comentario">// C# Program to Read a Grade & Display the Equivalent Description
+</span></pre><pre><span class="Keyword">using</span><span class=""> </span><span class="System">System</span><span class="Separators">;</span></pre><pre><span class="Keyword">using</span><span class=""> </span><span class="System">System</span><span class="Separators">.</span><span class="Variable">IO</span><span class="Separators">;</span></pre><pre><span class="Keyword">class</span><span class=""> </span><span class="System">program</span></pre><pre><span class="Separators">{</span><span class="">
+    </span><span class="Keyword">public</span><span class=""> </span><span class="Keyword">static</span><span class=""> </span><span class="Keyword">void</span><span class=""> </span><span class="Variable">Main</span><span class="Separators">(</span><span class="Separators">)</span><span class="">
+    </span><span class="Separators">{</span><span class="">
+        </span><span class="Keyword">char</span><span class=""> </span><span class="Variable">grade</span><span class="Separators">;</span><span class="">
+        </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">"Enter the Grade in UpperCase \n"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+        </span><span class="Variable">grade</span><span class=""> </span><span class="Operador">=</span><span class=""> </span><span class="Variable">Convert</span><span class="Separators">.</span><span class="Variable">ToChar</span><span class="Separators">(</span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">ReadLine</span><span class="Separators">(</span><span class="Separators">)</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">switch</span><span class=""> </span><span class="Separators">(</span><span class="Variable">grade</span><span class="Separators">)</span><span class="">
+        </span><span class="Separators">{</span><span class="">
+        </span><span class="Keyword">case</span><span class=""> </span><span class="Variable">S</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">" SUPER"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">case</span><span class=""> </span><span class="Variable">A</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">" VERY GOOD"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">case</span><span class=""> </span><span class="Variable">B</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">" FAIR"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">case</span><span class=""> </span><span class="Variable">Y</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">" ABSENT"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">case</span><span class=""> </span><span class="Variable">F</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">" FAIL"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+        </span><span class="Keyword">default</span><span class="Operador">:</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">WriteLine</span><span class="Separators">(</span><span class="String">"ERROR IN GRADE \n"</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+            </span><span class="Keyword">break</span><span class="Separators">;</span><span class="">
+            </span><span class="System">Console</span><span class="Separators">.</span><span class="Variable">ReadLine</span><span class="Separators">(</span><span class="Separators">)</span><span class="Separators">;</span><span class="">
+        </span><span class="Separators">}</span><span class="">
+    </span><span class="Separators">}</span></pre><pre><span class="Separators">}</span></pre>
