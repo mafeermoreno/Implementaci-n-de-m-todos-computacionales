@@ -1,2 +1,2 @@
-ab*c.
-abc
+(a|b)*
+ab
